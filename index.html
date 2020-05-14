@@ -4,79 +4,77 @@
         <meta charset="UTF-8" />
         <title>"Ana Ma Mongui"</title>
         <link rel="icon" type="image/png" href="images/favicon.png" />  
-        <style>
-            header{
-                background: green;
-            }
-        </style>
+        <link rel="stylesheet" href="css/estilos.css">
     </head>
     <body>
-        <header>
+        <header class="header">
             <div>
-                <figure>
+                <figure class="logo">
                    <img src="images/logo.png" width="200" height="100"/>
                 </figure>
-                    <nav>
+                    <nav class="menu">
                         <ol>
                             <li>
-                                <a href="#portafolio">Portafolio</a>
+                                <a class="link" href="#portafolio">Portafolio</a>
                             </li>
                             <li>
-                                <a href="#experiencia">Experiencia</a>
+                                <a class="link" href="#experiencia">Experiencia</a>
                             </li>
                             <li>
-                                <a href="#contacto">Trabajemos juntos</a>
+                                <a class="link" href="#contacto">Trabajemos juntos</a>
                             </li>
                         </ol>
                     </nav>
             </div>
         </header>
-        <section>
+        <section class="hero">
             <h1>
                 Hola! Soy <strong>Ana Maria Mongui</strong> Desarrolladora <br/> <strong>Frontend</strong> en proceso <br> con pasión por <strong>aprender y programar</strong>
             </h1>
             <img src="images/hero.jpg" width="250" height="300 alt="imagen principal del sitio">
         </section>
-        <section id="portafolio">
+        <section id="portafolio" class="portfolio">
             <h2>Portafolio (Proyectos Destacados)</h2>
-            <article>
-                <h3>Platzi Video</h3>
-                <h6>React Native / React</h6>
-                <p><small><strong>Fecha:</strong> 01/07/2018</small></p>
-                <p><small><strong>Puedes verlo en:</strong> www.platzi.com/natives</small></p>
-                <p>Este proyecto ha sido un proceso que me ha tomado meses de intenso aprendizaje
+            <article class="project">
+                <h3 class="project-title">Platzi Video</h3>
+                <h6 class="project-course">React Native / React</h6>
+                <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+                <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/natives</small></p>
+                <p class="project-description">Este proyecto ha sido un proceso que me ha tomado meses de intenso aprendizaje
                     donde poco a poco me voy llenado de este maravilloso mundo de programar y encuentro mi verdadera vocación.
                     Platzi me brinda cursos de excelente calidad,profesores sumamente preparados
                     que nos enseñan con todas las dinamicas posibles, ven a conocer la experiencia
                     y el conocimiento que he obtenido en lo que recorres mis proyectos
-                    
                     <br/>NO OLVIDES ¡¡¡ 💚 NUNCA PARES DE APRENDER 💚 !!! <br>
-                    <img witdth="500" src="images/platzi-video-react-native.png"  alt="Proyecto del curso de React Native"/>
+                    <figure class="project-imageContainer">
+                        <img class="project-image" witdth="500" src="images/platzi-video-react-native.png" alt="Proyecto del curso de React Native" />
+                    </figure>
+                    
           
                 </p>
             </article>
         </section>
         <section id="experiencia">
             <h2>Mas sobre mi experiencias</h2>
-            <article>
-                <figure>    
-                    <img src="images/platzi-bog.jpg" width="400"/>
+            <article class="event">
+                <figure class="event-imageContainer">    
+                    <img class="event-image" src="images/platzi-bog.jpg" width="400"/>
                 </figure>
-                <h3>Platzi Programa Empoderatech</h3>
-                <p>Programa al que Platzi se sumo con el fin de contribuir a jovenes que deseen
+                <h3 class="event-title">Platzi Programa Empoderatech</h3>
+                <p class="event-descripcion">Programa al que Platzi se sumo con el fin de contribuir a jovenes que deseen
                     especializarse en la carrera de desarrollo Fronted... 
                 </p>
-                <a>Ver Plática</a>
+                <a class="event-url">Ver Plática</a>
             </article>
         </section>
-        <section id="contacto">
-            <form action="/Suscripcion/">
+        <section id="contacto" class="contact">
+            <form action="/Suscripcion/" class="form-email">
                 <h3>¿Creamos algo juntos?</h3>
                 <input type="text" placeholder="Déjame tu email" id="email">
                 <button>Enviar</button>
             </form>
         </section>
-        <footer>footer</footer>
+        <footer class="footer">footer</footer>
         
     </body>
 </html>
