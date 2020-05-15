@@ -1,5 +1,9 @@
 
 
-header{
-    background: #262B82;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: 'Open Sans', Times, serif;
 }
