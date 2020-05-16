@@ -34,6 +34,12 @@ h1 strong{
     background-repeat: no-repeat;
     background-position-x: right;
 }
+
+.project{
+    border-top: 10px solid palevioletred ;
+    border-r
+}
+
 .project-details{
     width: 500px;
 }
