@@ -4,6 +4,7 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: normal;
     font-style: italic;
+    margin: 0;
 }
 
 h1,
@@ -19,7 +20,8 @@ h1{
     font-size: 40px;
     line-height: 1.5em;
     letter-spacing: -.2px;
-    color: white;   
+    color: white;  
+    margin: 15px 50px 20px 30px; 
 }
 
 h1 strong{
@@ -35,9 +37,17 @@ h1 strong{
     background-position-x: right;
 }
 
+.portfolio{
+    background: #F2F2F2;
+
+}
 .project{
-    border-top: 10px solid palevioletred ;
-    border-r
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
 }
 
 .project-details{
