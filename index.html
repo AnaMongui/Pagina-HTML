@@ -3,81 +3,153 @@
     <head>
         <meta charset="UTF-8" />
         <title>"Ana Ma Mongui"</title>
-        <link rel="icon" type="./Images/png" href="./Images/icon.png">  
+        <link rel="icon" type="./Images/png" href="./Images/icon.png" width="30">  
         <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:ital,wght@1,200&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./CSS/estilos.css">
     </head>
     <body>
         <header class="header">
-            <div>
-                <figure class="logo">
-                   <img src="./Images/Logo.PNG" width="300" height="150">
-                </figure>
+                <div class="container">
+                    <figure class="logo">
+                        <img src="./Images/Logo.PNG" width="250" height="130">
+                    </figure>
                     <nav class="menu">
                         <ol>
                             <li>
                                 <a class="link" href="#portafolio">Portafolio</a>
                             </li>
                             <li>
-                                <a class="link" href="#experiencia">Experiencia</a>
+                                <a class="link" href="#eventos">Experiencia</a>
                             </li>
                             <li>
                                 <a class="link" href="#contacto">Trabajemos juntos</a>
                             </li>
                         </ol>
                     </nav>
-            </div>
+                </div>
+                
         </header>
         <section class="hero">
-            <h1>
-                Hola! Soy <strong>Ana Maria Mongui</strong> <br/>Desarrolladora <strong>Frontend</strong> en proceso <br> con pasión por <strong>aprender y programar</strong>
-            </h1>
-            <!-- <img src="./Images/hero.jpg" width="250" height="300 alt="imagen principal del sitio"> -->
+            <div class="container">
+                <h1>
+                    Hola! Soy <strong>Ana Maria Mongui</strong> <br />Desarrolladora <strong>Frontend</strong> en proceso <br> con
+                    pasión por <strong>aprender y programar</strong>
+                </h1>
+                <img class="hero-image" src="./Images/hero.jpg" width="285" height="300 alt="imagen principal del sitio">
+            </div>            
         </section>
         <section id="portafolio" class="portfolio">
-            <h2>Portafolio (Proyectos Destacados)</h2>
-            <article class="project">
-                <div class="project-details">
-                    <h3 class="project-title">Platzi Video</h3>
-                    <h6 class="project-course">React Native / React</h6>
-                    <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/natives</small></p>
-                    <p class="project-description">Este proyecto ha sido un proceso que me ha tomado meses de intenso aprendizaje
-                        donde poco a poco me voy llenado de este maravilloso mundo de programar y encuentro mi verdadera vocación.
-                        Platzi me brinda cursos de excelente calidad,profesores sumamente preparados
-                        que nos enseñan con todas las dinamicas posibles, ven a conocer la experiencia
-                        y el conocimiento que he obtenido en lo que recorres mis proyectos
-                        <br/>NO OLVIDES ¡¡¡ 💚 NUNCA PARES DE APRENDER 💚 !!! <br>
+            <div class="container">
+                <h2>Portafolio (Proyectos Destacados)</h2>
+                <article class="project">
+                    <div class="project-details">
+                        <h3 class="project-title">Platzi Video</h3>
+                        <h6 class="project-course">React Native / React</h6>
+                        <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+                        <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/natives</small></p>
+                        <p class="project-description">Este proyecto ha sido un proceso que me ha tomado meses de intenso aprendizaje
+                            donde poco a poco me voy llenado de este maravilloso mundo de programar y encuentro mi verdadera vocación.
+                            Platzi me brinda cursos de excelente calidad,profesores sumamente preparados
+                            que nos enseñan con todas las dinamicas posibles, ven a conocer la experiencia
+                            y el conocimiento que he obtenido en lo que recorres mis proyectos
+                            <br />NO OLVIDES ¡¡¡ 💚 NUNCA PARES DE APRENDER 💚 !!! <br>
                     </div>
-                        <figure class="project-imageContainer">                    
-                        <img class="project-image" witdth="500" src="./Images/platzi-video-react-native.png" alt="Proyecto del curso de React Native" />
+                    <figure class="project-imageContainer">
+                        <img class="project-image" witdth="300" height="300" src="./Images/platzi-video-react-native.png"
+                            alt="Proyecto del curso de React Native" />
                     </figure>
-                    
-          
-                </p>
-            </article>
+                
+                
+                    </p>
+                </article>
+            </div>
+            
         </section>
-        <section id="experiencia">
-            <h2>Mas sobre mi experiencias</h2>
-            <article class="event">
-                <figure class="event-imageContainer">    
-                    <img class="event-image" src="Images/platzi-bog.jpg" width="400"/>
-                </figure>
-                <h3 class="event-title">Platzi Programa Empoderatech</h3>
-                <p class="event-descripcion">Programa al que Platzi se sumo con el fin de contribuir a jovenes que deseen
-                    especializarse en la carrera de desarrollo Fronted... 
-                </p>
-                <a class="event-url">Ver Plática</a>
-            </article>
+        <div class="container">
+            <div class="container">
+        </div>
+        <section id="eventos" class="event-list">
+            <div class="container-eventos">
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="Images/platzi-bog.jpg" />
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Platzi Programa Empoderatech</h3>
+                        <p class="event-descripcion">Programa al que Platzi se sumo con el fin de contribuir a jovenes que deseen
+                            especializarse en la carrera de desarrollo Fronted...
+                        </p>
+                        <a class="event-url" href="https://endeavor.org.co/programas-endeavor/formacion-aceleracion-tech/formacion/">Ver Más</a>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="Images/platzi-bog.jpg" />
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Platzi Programa Empoderatech</h3>
+                        <p class="event-descripcion">Programa al que Platzi se sumo con el fin de contribuir a jovenes que deseen
+                            especializarse en la carrera de desarrollo Fronted...
+                        </p>
+                        <a class="event-url">Ver Platica</a>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="Images/platzi-bog.jpg" />
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Platzi Programa Empoderatech</h3>
+                        <p class="event-descripcion">Programa al que Platzi se sumo con el fin de contribuir a jovenes que deseen
+                            especializarse en la carrera de desarrollo Fronted...
+                        </p>
+                        <a class="event-url">Ver Platica</a>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="Images/platzi-bog.jpg" />
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Platzi Programa Empoderatech</h3>
+                        <p class="event-descripcion">Programa al que Platzi se sumo con el fin de contribuir a jovenes que deseen
+                            especializarse en la carrera de desarrollo Fronted...
+                        </p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=BIS" </a>
+                            <a class="event-url">Ver Platica</a>
+                    </div>
+                </article>
+            </div>
+            
         </section>
         <section id="contacto" class="contact">
+            <div class="container">
             <form action="/Suscripcion/" class="form-email">
                 <h3>¿Creamos algo juntos?</h3>
                 <input type="text" placeholder="Déjame tu email" id="email">
                 <button>Enviar</button>
             </form>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/ana-maria-mongui-sanabria-887717b1/" class="social-link linkedin"></a>
+                <a href="https://github.com/AnaMongui" class="social-link github"></a>
+            </div>
+            </div>    
         </section>
-        <footer class="footer">footer</footer>
+        <footer class="footer">
+            <div class="container">
+                <div>
+                    <p>Curso de Desarrollo Web Online 2020 <img src="./Images/platzi.webp" width="80" alt="platzi"></p>
+                </div>
+                <div>
+                    <!-- Designed with </3 by <a href="https://www.twitter.com/thespianartist">@thespianartist</a> -->
+                    <p><small>Diseñado por </small><a href="https://www.twitter.com/thespianartist/" target="_back">@thespianartist</a>
+                    </p>
+                    <p><small>Instruido por </small><a href="https://www.twitter.com/LeonidasEsteban/"
+                            target="_back">@LeonidasEsteban</a></p>
+                </div>
+            </div>
+            
+        </footer>
         
     </body>
 </html>
